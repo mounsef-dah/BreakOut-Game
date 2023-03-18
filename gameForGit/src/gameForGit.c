@@ -8,7 +8,7 @@
 
 #define pi 3.14
 
-//-----------------------------Taille de l'écran----------------------------------------------
+//-----------------------------screen size----------------------------------------------
 
 #define SCREEN_WIDTH  512
 #define SCREEN_HEIGHT 512
@@ -25,7 +25,7 @@ int rayon = 5; 		// rayon balle
 int longueur = 128;   // palette
 int largeur = 8; 		//palette largeur
 char str[15];  		// display score
-int score = 0; //score counting
+int score = 0;          //score counting
 
 
 int i; //for loop
@@ -57,9 +57,9 @@ void vBitmapOutput(int x, int y, char *string, void *font)
 {
 	int len;
 
-	glRasterPos2f(x,y); // la Positionne du premier caractère de la chaîne
-	len = (int) strlen(string); // longueur de la chaîne
-	for (i = 0; i < len; i++) glutBitmapCharacter(font,string[i]); //caractère
+	glRasterPos2f(x,y); // la Positionne du premier caractÃ¨re de la chaÃ®ne
+	len = (int) strlen(string); // longueur de la chaÃ®ne
+	for (i = 0; i < len; i++) glutBitmapCharacter(font,string[i]); //caractÃ¨re
 }
 
 int x,y,xo,yo;
@@ -166,7 +166,7 @@ void ball_physics()
 {
 
 	int direction;
-  // déplacement de la balle
+  // dÃ©placement de la balle
 	bx += bdx;
 	by += bdy;
 
