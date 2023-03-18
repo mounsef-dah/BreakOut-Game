@@ -13,7 +13,7 @@ This is a simple implementation of the classic Breakout game, written in C and u
 1. Clone the GitHub repository to your local machine.
 1. Install the necessary libraries: OpenGL and GLUT.
 1. Compile the code using a C compiler and the appropriate libraries for your platform.
-     <br/> * libraries for your project (example-eclipse):
+     <br/> * Libraries for your project (example-eclipse):
       - opengl32
       - glu32
       - winmm
